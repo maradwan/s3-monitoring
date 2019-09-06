@@ -6,7 +6,7 @@ import boto3
 
 s3 = boto3.client('s3')
 
-url= "http://<domain/ip for api backend>:5000/api"
+url= "http://<domain/ip for api backend>/api"
 
 def lambda_handler(event, context):
     if event['Records'][0]['eventName'] in ['ObjectRemoved:DeleteMarkerCreated']:
