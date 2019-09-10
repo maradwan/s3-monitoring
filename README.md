@@ -6,6 +6,22 @@ By using aws Lambda, s3,flask and mysql
 ![](images/s3-monitoring-2.png)
 
 
+## Cloudwatch shows the following: 
+-BucketSize (Free)
+-NumberOfObjects (Free)
+-Requests (PUT, LIST,ALL,4XX Errors,5XX Errors) (Paid service)
+-Data transfer (Total request latency, First byte latency,Bytes uploaded,Bytes downloaded) (Paid service)
+
+## S3-Monitoring shows the following:
+- BucketSize
+- NumberOfObjects
+- Grouping objects more than specific size
+- Geo location uploaded objects
+- Added/Deleted/Removed/Renamed Objects
+- Grouping of Objects extensions
+- identifier that perform the request
+
+
 ## Installations
 
 Part 1:
